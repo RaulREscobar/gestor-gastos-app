@@ -1,5 +1,5 @@
 <template>
-  <q-card style="width: 40%;" >
+  <q-card>
     <q-card-section>
       <div class="text-h6">Gastos por Categoría</div>
     </q-card-section>

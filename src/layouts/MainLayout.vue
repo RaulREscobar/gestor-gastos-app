@@ -12,11 +12,11 @@
     </q-header>
 
     <q-footer elevated>
-      <q-tabs class="">
-        <q-tab name="Inicio" label="Inicio" icon="home" />
-        <q-tab name="Grafico" label="Grafico" icon="insert_chart" />
-        <q-tab name="Informes" label="Informes" icon="article" />
-        <q-tab name="Yo" label="Yo" icon="account_circle" />
+      <q-tabs dense class="">
+        <q-route-tab to="/" exact name="Inicio" label="Inicio" icon="home" size="xs" />
+        <q-route-tab to="/reportes" exact name="Grafico" label="Grafico" icon="insert_chart" size="xs" /> 
+        <q-route-tab to="/gastos" exact name="Agregar" label="Agregar" icon="add_circle" size="xs" /> 
+        <q-route-tab to="/perfil" exact name="Yo" label="Yo" icon="account_circle" size="xs" />
       </q-tabs>
     </q-footer>
 
